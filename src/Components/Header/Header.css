@@ -1,0 +1,12 @@
+.headerSection
+{
+    width:100%;
+    height:100px;
+    float:left;
+    background-color:purple;
+}
+.headerSection h3
+{
+    text-align: center;
+    color:white;
+}
