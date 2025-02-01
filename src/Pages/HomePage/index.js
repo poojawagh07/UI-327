@@ -30,12 +30,12 @@ const HomePage = () => {
     }
     return (
         <div>
-              <div className={styles.headerSection}>
-              <Header name={student} hname1={hName} setCourseValue={setCourseValue1}/>
-              </div>
+              {/* <div className={styles.headerSection}>
+              <Header/>
+              </div> */}
             <div className={styles.bodySection}>
-                <h3> THIS IS THE BODY</h3>
-                <h4 className='bg-primary'>HAVE A NIC DAY</h4>
+                {/* <h3> THIS IS THE BODY</h3> */}
+                {/* <h4 className='bg-primary'>HAVE A NIC DAY</h4> */}
             </div>
             <div className={styles.footerSection}>
                 <h3> THIS IS THE FOOTER</h3>
