@@ -1,10 +1,18 @@
 
 import style from './CoursesPage.module.scss';
+import {CourseDetaisl} from '../../MocData/';
+import { useState } from 'react';
+import CourseDetails from '../../Components/CourseDetails';
 
 
 const CoursesPage = () => {
+
+    const[courseDetails,setCourseDetails]=useState(CourseDetaisl);
+
+    console.log(courseDetails);
+
     return (<>
-        <h1> THIS IS THE Courses PAGE</h1>
+        <div><CourseDetails courseDetails={courseDetails}/></div>
     </>)
 }
 
